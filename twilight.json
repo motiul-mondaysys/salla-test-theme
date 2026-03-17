@@ -1072,7 +1072,25 @@
                     "maxLength": 30
                 }
             ]
+        },
+        {
+            "name": "custom-module",
+            "label": "Custom Module",
+            "settings": [
+                {
+                "id": "title",
+                "type": "text",
+                "label": "Title",
+                "default": "My Custom Title"
+                },
+                {
+                "id": "description",
+                "type": "textarea",
+                "label": "Description"
+                }
+            ]
         }
+
     ],
     "support_url": "https://salla.com/",
     "description": {
